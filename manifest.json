@@ -2,7 +2,7 @@
     "lang" : "en",
     "name" : "List of hypoallergenic doggies",
     "scope" : "/Dogs/",
-    "display" : "browser",
+    "display" : "standalone",
     "start_url" : "https://hmc-baluga-s19.github.io/Dogs/",
     "short_name" : "List of hypoall",
     "theme_color" : "transparent",
