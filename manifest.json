@@ -13,4 +13,80 @@
     "prefer_related_applications" : "false",
     "generated" : "true",
     "icons" : [
+        {
+            "src": "dogIcon.png",
+            "sizes": "44x44"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "1240x600"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "88x88"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "50x50"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "620x300"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "1024x1024"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "dogIcon.png",
+            "sizes": "76x76"
+        }
     ]}
