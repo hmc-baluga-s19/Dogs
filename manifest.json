@@ -9,7 +9,6 @@
     "description" : "website of hypoallergenic dogs",
     "orientation" : "any",
     "background_color" : "transparent",
-    "generated" : "true",
     "icons" : [
         {
             "src": "dogIcon.png",
