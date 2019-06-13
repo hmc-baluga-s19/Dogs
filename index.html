@@ -1,0 +1,549 @@
+<!doctype html> 
+
+<html lang="en">
+
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> List of hypoallergenic doggies </title>
+        <h1> Hypoallergenic Dog Breeds</h1>
+
+        <style>
+            .filterDiv {
+              float: left;
+              background-color: transparent;
+              color: #ffffff;
+              width: 425px;
+              line-height: 75px;
+              text-align: center;
+              margin: 22px;
+              display: none;
+            }
+            
+            .show {
+              display: block;
+            }
+            
+            .container {
+              margin-top: 20px;
+              overflow: hidden;
+            }
+            
+            /* Style the buttons */
+            .btn {
+              border: none;
+              outline: none;
+              padding: 12px 16px;
+              background-color: #f1f1f1;
+              cursor: pointer;
+            }
+            
+            .btn:hover {
+              background-color: #ddd;
+            }
+            
+            .btn.active {
+              background-color: #666;
+              color: white;
+            }
+
+            .flip-card {
+                background-color: transparent;
+                width: 450px;
+                height: 400px;
+                perspective: 1000px;
+            }
+
+            .flip-card-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            }
+
+            .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+            }
+
+            .flip-card-front, .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+            }
+
+            .flip-card-front {
+                background-color: #bbb;
+                color: black;
+            }
+
+            .flip-card-back {
+                background-color: cornsilk;
+                color: white;
+                transform: rotateY(180deg);
+            }
+
+            </style>
+
+    </head>
+
+        <body>
+            
+            <h2> Don't let your allergies keep you from finding the perfect companion! There are many dog breeds out there for those who suffer from allergies.
+                The following catalog of dog breeds are known for their non-shedding coat which produce less dander and in turn less allergy attacks. I have
+                broken the dog breeds up by size so that you can narrow down your search. There are many more hypoallergenic dog breeds than these, but this is just
+                an intro site. </h2>
+
+                    <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('small')"> Small Breeds</button>
+                    <button class="btn" onclick="filterSelection('medium')"> Medium Breeds</button>
+                    <button class="btn" onclick="filterSelection('large')"> Large Breeds</button>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="filterDiv small">     
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img alt="Picture of an Affenpinshcer" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/30174107/Affenpinscher-copy.jpg" height="400" width="500"></img>
+                                    </div> 
+                                    <div class="flip-card-back">
+                                        <span><h3> Affenpinscher </h3></span>
+                                        <p> Confident, funny and fearless </p>
+                                        <p> <b> Height: </b> 9-11.5 inches <br> <b> Weight: </b> 7-10 pounds <br> <b> Life Expectancy: </b> 12-15 years </p>
+                                        <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/toy/"> Toy group. </a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filterDiv small">     
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img alt="Picture of an Australian Terrier" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/29112347/Australian-Terrier-on-White-011.jpg" height="400" width="500"></img>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span><h3> Australian Terrier </h3></span>
+                                        <p> Affectionate, courageous and spirited </p>
+                                        <p> <b> Height: </b> 10-11 inches <br> <b> Weight: </b> 15-20 pounds <br> <b> Life Expectancy: </b> 11-15 years </p>
+                                        <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/terrier/"> Terrier group. </a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filterDiv small">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img alt="Picture of a Beagle" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13000937/Beagle-On-White-07.jpg" height="400" width="500"></img>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span><h3> Beagle </h3></span>
+                                        <p> Friendly, curious and merry </p>
+                                        <p> <b> Height: </b> 13-15 inches <br> <b> Weight: </b> 20-30 pounds <br> <b> Life Expectancy: </b> 10-15 years </p>
+                                        <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/hound/"> Hound group. </a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="filterDiv small">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Bichon Frise" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13000402/Bichon-Frise-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Bichon Frise </h3></span>
+                                    <p> Playful, curious and peppy</p>
+                                    <p> <b> Height: </b> 9.5-12.5 inches <br> <b> Weight: </b> 12-18 pounds <br> <b> Life Expectancy: </b> 14-15 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/non-sporting/"> Non-sporting group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv small">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Boston Terrier" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12235803/Boston-Terrier-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Boston Terrier </h3></span>
+                                    <p> Bright and amusing </p>
+                                    <p> <b> Height: </b> 15-17 inches <br> <b> Weight: </b> 12-15 pounds <br> <b> Life Expectancy: </b> 11-13 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/non-sporting/"> Non-sporting group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv small">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Coton de Tulear" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234218/Coton-de-Tulear-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Coton de Tulear </h3></span>
+                                    <p> Charming, bright and happy-go-lucky </p>
+                                    <p> <b> Height: </b> 9-11 inches <br> <b> Weight: </b> 9-14 pounds <br> <b> Life Expectancy: </b> 15-19 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/non-sporting/"> Non-sporting group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv small">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Toy Poodle" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2018/04/01104123/Toy-Poodle-on-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Toy Poodle </h3></span>
+                                    <p> Agile, intelligent and self-confident </p>
+                                    <p> <b> Height: </b> lesss than 10 inches <br> <b> Weight: </b> 4-6 pounds <br> <b> Life Expectancy: </b> 10-18 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/toy/"> Toy group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv small">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Russian Tsvetnaya Bolonka" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12192514/Russian-Tysvetnaya-Bolonka-on-White-02.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Russian Tsvetnaya Bolonka </h3></span>
+                                    <p> Playful, charming and inquisitive </p>
+                                    <p> <b> Height: </b> 9-10 inches <br> <b> Weight: </b> 4-11 pounds <br> <b> Life Expectancy: </b> 12-16 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/foundation-stock-service/"> FSS. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an American Foxhound" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001630/American-Foxhound-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> American Foxhound </h3></span>
+                                    <p> Independent, easy-going and sweet-tempered </p>
+                                    <p> <b> Height: </b> 22-25 inches <br> <b> Weight: </b> 60-70 pounds <br> <b> Life Expectancy: </b> 11-13 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/hound/"> Hound group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an American Water Spaniel" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/04160609/American-Water-Spaniel.1.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> American Water Spaniel </h3></span>
+                                    <p> Eager, happy and charming </p>
+                                    <p> <b> Height: </b> 15-18 inches <br> <b> Weight: </b> 30-45 pounds <br> <b> Life Expectancy: </b> 10-14 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/sporting/"> Sporting group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an Australian Cattle Dog" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001403/Australian-Cattle-Dog-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Australian Cattle Dog </h3></span>
+                                    <p>Very alert, curious and pleasant </p>
+                                    <p> <b> Height: </b> 17-20 inches <br> <b> Weight: </b> 35-50 pounds <br> <b> Life Expectancy: </b> 12-16 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/herding/"> Herding group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an Australian Shepherd" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/03173132/Australian-Shepherd.1.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Australian Shepherd </h3></span>
+                                    <p> Smart, work-oriented and exuberant </p>
+                                    <p> <b> Height: </b> 18-23 inches <br> <b> Weight: </b> 40-65 pounds <br> <b> Life Expectancy: </b> 12-15 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/herding/"> Herding group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Barbet" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/27114851/barbet.lying_.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Barbet </h3></span>
+                                    <p> Friendly, bright and sweet-natured </p>
+                                    <p> <b> Height: </b> 19-24.5 inches <br> <b> Weight: </b> 35-65 pounds <br> <b> Life Expectancy: </b> 12-14 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/miscellaneous-class/"> Miscellaneous class. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Kerry Blue Terrier" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12211714/Kerry-Blue-on-White-00.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Kerry Blue Terrier </h3></span>
+                                    <p> Smart, alert and people-oriented </p>
+                                    <p> <b> Height: </b> 17-19 inches <br> <b> Weight: </b> 33-40 pounds <br> <b> Life Expectancy: </b> 12-15 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/terrier/"> Terrier group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Lagotto Romagnolo" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231306/Lagotto-Romagnolo-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Lagotto Romagnolo </h3></span>
+                                    <p> Affectionate, keen and undemanding </p>
+                                    <p> <b> Height: </b> 16-19 inches <br> <b> Weight: </b> 24-35 pounds <br> <b> Life Expectancy: </b> 15-17 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/sporting/"> Sporting group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv medium">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Soft Coated Wheaten Terrier" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12223937/Soft-Coated-Wheaten-Terrier-On-White-01.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Soft Coated Wheaten Terrier </h3></span>
+                                    <p> Friendly, happy and deeply devoted </p>
+                                    <p> <b> Height: </b> 17-19 inches <br> <b> Weight: </b> 30-40 pounds <br> <b> Life Expectancy: </b> 12-14 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/terrier/"> Terrier group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an Afghan Hound" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/19145725/Afghan-Hound1.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Afghan Hound </h3></span>
+                                    <p> Sweet, independent and regal </p>
+                                    <p> <b> Height: </b> 25-27 inches <br> <b> Weight: </b> 50-60 pounds <br> <b> Life Expectancy: </b> 12-18 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/hound/"> Hound group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of an Akita" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001904/Akita-On-White-01.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Akita </h3></span>
+                                    <p> Courageous, dignified and profoundly loyal </p>
+                                    <p> <b> Height: </b> 24-28 inches <br> <b> Weight: </b> 75-125 pounds <br> <b> Life Expectancy: </b> 10-13 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/working/"> Working group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Beauceron" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13000826/Beauceron-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Beauceron </h3></span>
+                                    <p> Gentle, faithful and obedient </p>
+                                    <p> <b> Height: </b> 24-27.5 inches <br> <b> Weight: </b> 70-110 pounds <br> <b> Life Expectancy: </b> 10-12 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/herding/"> Herding group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Belgian Tervuren" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/29201539/Belgian-Tervuren.3.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Belgian Tervuren </h3></span>
+                                    <p> Courageous, alert and intelligent </p>
+                                    <p> <b> Height: </b> 22-26 inches <br> <b> Weight: </b> 45-75 pounds <br> <b> Life Expectancy: </b> 12-14 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/herding/"> Herding group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Bernese Mountain Dog" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13000440/Bernese-Mountain-Dog-On-White-01.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Bernese Mountain Dog </h3></span>
+                                    <p> Good-natured, calm and strong </p>
+                                    <p> <b> Height: </b> 23-27.5 inches <br> <b> Weight: </b> 75-115 pounds <br> <b> Life Expectancy: </b> 7-10 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/working/"> Working group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Giant Schnauzer" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12232847/Giant-Schnauzer-On-White-01.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Giant Schnauzer </h3></span>
+                                    <p> Loyal, alert and trainable </p>
+                                    <p> <b> Height: </b> 23.5-27.5 inches <br> <b> Weight: </b> 55-75 pounds <br> <b> Life Expectancy: </b> 12-15 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/working/"> Working group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Portugese Water Dog" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225434/Portuguese-Water-Dog-On-White-03.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Portugese Water Dog </h3></span>
+                                    <p> Affectionate, adventurous and athletic </p>
+                                    <p> <b> Height: </b> 17-23 inches <br> <b> Weight: </b> 40-60 pounds <br> <b> Life Expectancy: </b> 11-13 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/working/"> Working group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv large">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img alt="Picture of a Samoyed" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12212924/Samoyed-slide-5.jpg" height="400" width="500"></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <span><h3> Samoyed </h3></span>
+                                    <p> Adaptable, friendly and gentle </p>
+                                    <p> <b> Height: </b> 19-23 inches <br> <b> Weight: </b> 35-65 pounds <br> <b> Life Expectancy: </b> 12-14 years </p>
+                                    <p> This dog breed belongs to the <a href="https://www.akc.org/dog-breeds/working/"> Working group. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <script>
+                    filterSelection("all")
+                    function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("filterDiv");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                        w3RemoveClass(x[i], "show");
+                        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                    }
+                    }
+
+                    function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                    }
+                    }
+
+                    function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                        }
+                    }
+                    element.className = arr1.join(" ");
+                    }
+
+                    // Add active class to the current button (highlight it)
+                    var btnContainer = document.getElementById("myBtnContainer");
+                    var btns = btnContainer.getElementsByClassName("btn");
+                    for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function(){
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                    }
+                    </script>
+
+        </body>
+
+</html>
+
+            
+
+

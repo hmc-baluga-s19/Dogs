@@ -1,0 +1,50 @@
+
+/*
+// This stylesheet is for doggieWebpage.html
+// Author: Megan Dymerski 
+*/
+
+
+/* the body function contains details corresponding to the webpage as a whole */
+body { 
+    background-image : url("http://cdn.osxdaily.com/wp-content/uploads/2015/05/Green-Grass-Fields-Wallpaper-1931.jpg");
+    background-size :1600px 800px;
+    opacity: 0.9;
+}
+
+/* the h1 function specifies the style of all text labeled as h1 in the html file */
+h1 {
+    color : rgb(20, 49, 73);
+    text-align : center; 
+    font-family : "Apple Chancery", cursive;
+    font-size : 50px;
+}
+
+/* the h2 function specifies the style of all text labeled as h2 in the html file */
+h2 {
+    color : black;
+    text-align: center;
+    font-family : "Apple Chancery", cursive;
+    font-size : 22px;
+    font-weight: 500; 
+}
+
+/* the h3 function specifies the style of all text labeled as h3 in the html file */
+h3 {
+    text-align: center;
+    color : rgb(192, 82, 9);
+    font-family : "Noto Sans", sans-serif;
+    font-size : 20px;
+    font-weight : 600;
+}
+
+/* the p function specifies the style of all text labeled as p in the html file */
+p {
+    color : black;
+    font-family : "Noto Sans", sans-serif; 
+    font-size : 15px;
+    font-weight : 500;
+    line-height: 250%;
+}
+
+
