@@ -4,13 +4,11 @@
     "scope" : "/Dogs/",
     "display" : "standalone",
     "start_url" : "https://hmc-baluga-s19.github.io/Dogs/",
-    "short_name" : "List of hypoall",
+    "short_name" : "List of dogs",
     "theme_color" : "transparent",
-    "description" : "",
+    "description" : "website of hypoallergenic dogs",
     "orientation" : "any",
     "background_color" : "transparent",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
     "generated" : "true",
     "icons" : [
         {
