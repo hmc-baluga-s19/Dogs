@@ -1,4 +1,5 @@
-{"dir" : "ltr",
+{
+    "dir" : "ltr",
     "lang" : "en",
     "name" : "List of hypoallergenic doggies",
     "scope" : "/Dogs/",
@@ -12,5 +13,5 @@
     "related_applications" : "",
     "prefer_related_applications" : "false",
     "generated" : "true",
-    "icons" : [
-    ]}
+    "icons" : [ ]
+}
