@@ -11,79 +11,79 @@
     "background_color" : "transparent",
     "icons" : [
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "44x44"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "48x48"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "1240x600"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "300x300"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "150x150"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "88x88"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "24x24"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "50x50"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "620x300"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "192x192"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "144x144"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "96x96"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "72x72"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "36x36"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "1024x1024"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "180x180"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "152x152"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "120x120"
         },
         {
-            "src": "dogPrint.png",
+            "src": "icon.png",
             "sizes": "76x76"
         }
     ]}
