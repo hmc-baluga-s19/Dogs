@@ -8,7 +8,7 @@
 /* the body function contains details corresponding to the webpage as a whole */
 body { 
     background-image: url("https://en.zoxee.com/cache/thumbnails/wp/0/0/1/2/3/5/6/6/tc_j5dh2pzp_300_300.jpg");
-    background-size: 600px 450px;
+    background-size: 700px 600px;
     opacity: 0.9;
 }
 
@@ -22,17 +22,17 @@ h1 {
 
 /* the h2 function specifies the style of all text labeled as h2 in the html file */
 h2 {
-    color : black;
+    color : rgb(136, 58, 7);
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size : 22px;
-    font-weight: 500; 
+    font-size : 24px;
+    font-weight: 1000; 
 }
 
 /* the h3 function specifies the style of all text labeled as h3 in the html file */
 h3 {
     text-align: center;
-    color : rgb(192, 82, 9);
+    color : rgb(136, 58, 7);
     font-family: 'Noto Sans HK', sans-serif;
     font-size : 20px;
     font-weight : 600;

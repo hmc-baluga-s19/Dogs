@@ -8,7 +8,7 @@
         <link rel="manifest" href="manifest.json">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK|Poppins|Source+Sans+Pro&display=swap" rel="stylesheet">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title> List of hypoallergenic doggies </title>
         <h1> Hypoallergenic Dog Breeds</h1>
@@ -17,7 +17,7 @@
             .filterDiv {
               float: left;
               background-color: transparent;
-              color: #ffffff;
+              color: cornsilk;
               width: 425px;
               line-height: 75px;
               text-align: center;
@@ -39,17 +39,25 @@
               border: none;
               outline: none;
               padding: 12px 16px;
-              background-color: #f1f1f1;
+              background-color: cornsilk;
               cursor: pointer;
             }
             
             .btn:hover {
-              background-color: #ddd;
+              background-color: rgb(159, 161, 165);
             }
             
             .btn.active {
-              background-color: #666;
+              background-color: rgb(20, 49, 73);
               color: white;
+            }
+
+            /* On screens that are 500px wide or less, make the menu links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 500px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
             }
 
             .flip-card {
@@ -91,6 +99,12 @@
                 background-color: cornsilk;
                 color: white;
                 transform: rotateY(180deg);
+            }
+
+            @media only screen and (max-width: 700px) {
+                body {
+                    background-color: lightblue;
+                }
             }
 
             </style>
