@@ -3,7 +3,7 @@
     "name" : "Hypoallergenic pups",
     "scope" : "/Dogs/",
     "display" : "standalone",
-    "start_url" : "https://hmc-baluga-s19.github.io/Dogs/",
+    "start_url" : ".",
     "short_name" : "List of dogs",
     "theme_color" : "transparent",
     "description" : "website of hypoallergenic dogs",
