@@ -85,5 +85,6 @@
         {
             "src": "icon.png",
             "sizes": "76x76"
-        }
-    ]}
+        }]
+        "changelog": "."
+}
